@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet' type='text/css'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+
+<style>
+   ::selection {
+    background: #8e44ad;
+    text-shadow: none;
+}
+.san{
+    color:blanchedalmond;
+}
+
+#myDIV {
+  
+  background: red;
+  animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+  from {background-color: lightblue;}
+  to {background-color: darkcyan;}
+}
+
+.cam {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: darkgrey;
+  text-shadow: 2px 2px 3px #000;
+}
+h2{
+    color: darkblue;
+    font-size: 60px;
+}
+   body {
+      
+      
+    }
+    .grab {cursor: -webkit-grab; cursor: grab;}
+    </style>
+
+    </head>
+  <body style="font-family: 'Rubik Bubbles', cursive;" background=>
+    <div id="myDIV">
+    <h2 style="text-align: center" >Elites</h2>
+
+    <h1 class="cam"style="text-align: center">Name a better trio... I'll wait</h1><br><br><br><br><br>
+
+    <button class="grab"
+      style="padding: 20px; float: left; margin-top: 150px; background:red;color:white; 
+      font-weight:900; font-size:13px;font-family: 'Rubik Bubbles', cursive;"
+      onclick="document.getElementById('myImage').src='san1.jpeg'"
+    >
+      BEFORE ATTENDING RPL WORKSHOP
+    </button>
+
+    <img
+      id="myImage"
+      src="san1.jpeg"
+      style="
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border: 1px solid red;
+        
+        margin-left:300px;
+      "
+      padding="left:100px"
+    />
+
+    <button class="grab"
+      style="padding: 20px; float: right; margin-top: 150px; background:red;color:white; 
+      font-weight:900; font-size:13px;font-family: 'Rubik Bubbles', cursive;"
+      onclick="document.getElementById('myImage').src='san.jpg'"
+    >
+      AFTER ATTENDING RPL WORKSHOP
+    </button>
+
+    <marquee class="san"
+    style="border:red 2px SOLID"> '''''''&#128540&#128540''''''''''</marquee><br><br><br><br><br>
+    </div>
+    
+    
+  </body>
+</html>
